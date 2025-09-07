@@ -1,0 +1,6 @@
+
+public class main { 
+public status void main (Strings[] args) { 
+System.out.println("hello') ;
+}
+}
