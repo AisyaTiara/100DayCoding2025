@@ -1,0 +1,12 @@
+public class aisya {
+  public static  void main (String [] args) { 
+
+int umur = 18;
+String nama = "Aisyah";
+
+System.out.printf("Nama: %s, Umur: %d, " ,nama, umur) ;
+System.out.println(" ");
+System.out.print("Halo");
+System.out.println(" Dunia ");
+  }
+}
