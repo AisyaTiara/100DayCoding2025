@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class aisya {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int x = input.nextInt();  
+        int y = input.nextInt();
+        if (x > 5 && y > 15) {
+            System.out.println("Kedua kondisi benar!");
+        } else {
+            System.out.println("Salah satu kondisi salah!");
+        }
+
+      
+    }
+}
