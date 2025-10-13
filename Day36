@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class aisya {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan angka: ");
+        int a = input.nextInt();
+
+        if (a > 0 && a < 10) { 
+            if (a % 2 == 0) { 
+                System.out.println("Angka satuan dan genap");
+            } else if (a % 2 == 1) { 
+                System.out.println("Angka satuan dan ganjil");
+            }
+        } 
+        else if (a >= 10 && a <= 999) { 
+            if (a % 2 == 0) { 
+                System.out.println("Angka puluhan dan genap");
+            } else if (a % 2 == 1) { 
+                System.out.println("Angka puluhan dan ganjil");
+            }
+        } 
+        else {
+            System.out.println("Angka di luar jangkauan");
+        }
+    }
+}
