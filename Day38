@@ -1,0 +1,17 @@
+package pkg100haricoding;
+
+import java.util.Scanner;
+
+public class DAY38 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int nilai = sc.nextInt();
+        if (nilai > 0 ){
+            System.out.println("positif");
+        }else if (nilai < 0 ){
+            System.out.println("negatif");
+        }else if (nilai == 0){
+            System.out.println("nilai nya nol");
+        }
+    }
+}
