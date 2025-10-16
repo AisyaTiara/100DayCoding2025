@@ -1,0 +1,29 @@
+package pkg100haricoding;
+
+import java.util.Scanner;
+
+public class day29 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+       
+        System.out.println("===MENU MAKANAN===");
+        System.out.println("AYAM BAKAR + NASI \t = 25.000");
+        System.out.println("AYAM KECAP + NASI  \t = 15.000");
+        System.out.println("AYAM GORENG + NASI \t = 13.000");
+        
+        System.out.println("  ");
+        System.out.println("masukkan pilihan");
+        String a = sc.nextLine();
+        
+        if (a.equalsIgnoreCase("AYAM BAKAR")){
+        System.out.println("AYAM BAKAR + NASI \t = 25.000");
+        }else if (a.equalsIgnoreCase("AYAM KECAP")){
+        System.out.println("AYAM KECAP + NASI  \t = 15.000");
+        }else if (a.equalsIgnoreCase("AYAM GORENG")){
+        System.out.println("AYAM GORENG + NASI \t = 13.000");
+        }else{
+            System.out.println("TIDAK VALID");
+    }
+    
+
+}}
