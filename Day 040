@@ -1,0 +1,35 @@
+package pkg100haricoding;
+
+import java.util.Scanner;
+
+public class day30 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PILIH");
+        System.out.println("tambah(+) kurang(-) modulus(%) bagi(/) kali(*)");
+        char a = sc.nextLine().charAt(0);
+        System.out.print("NILAI PERTAMA = ");
+        int b = sc.nextInt();
+        System.out.print("NILAI KEDUA = ");
+        int c = sc.nextInt();
+       
+        if (a == '+'){
+             int d = b + c;
+              System.out.println(b+ "+"+ c+"=" + d);
+        }else if (a == '-'){
+            int e = b - c;
+              System.out.println(b+ "-"+ c+"=" + e);
+         }else if (a == '%'){
+         int f = b % c;
+              System.out.println(b+ "%"+ c+"=" + f);
+          }else if (a == '/'){
+           int g = b / c;
+              System.out.println(b+ "/"+ c+"=" + g);
+           }else if (a == '*'){
+           int h = b * c;
+              System.out.println( b+ "*"+ c+"=" + h);
+           }else{
+               System.out.println("tidak valid");
+        }
+    }
+}
