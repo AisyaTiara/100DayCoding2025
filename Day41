@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class aisya {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+ 
+        String a = input.nextLine();
+
+        System.out.print("Masukkan usia kamu: ");
+        int usia = input.nextInt();
+
+        if (a.equalsIgnoreCase("Laki-laki")) {
+            if (usia < 18) {
+                System.out.println(" anak-anak .");
+            } else if (usia >= 18 && usia < 25) {
+                System.out.println(" remaja.");
+            } else if (usia >= 25) {
+                System.out.println("dewasa");
+            } else {
+                System.out.println("Usia tidak valid!");
+            }
+
+        } else {
+            System.out.println("tidak valid");
+        }
+    }
+}
