@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class aisya {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+    
+        System.out.print("Masukkan nama karyawan: ");
+        String nama = input.nextLine();
+
+        System.out.print("Masukkan gaji pokok: ");
+        double gajiPokok = input.nextDouble();
+
+        System.out.print("Masukkan persen tunjangan (%): ");
+        double persenTunjangan = input.nextDouble();
+
+        System.out.print("Masukkan persen pajak (%): ");
+        double persenPajak = input.nextDouble();
+
+        double tunjangan = (persenTunjangan / 100) * gajiPokok;
+        double pajak = (persenPajak / 100) * gajiPokok;
+        double gajiBersih = gajiPokok + tunjangan - pajak;
+
+        // Tampilkan hasil
+        System.out.println("=== HASIL PERHITUNGAN GAJI BERSIH ===");
+        System.out.println("Nama Karyawan : " + nama);
+        System.out.println("Gaji Pokok    : Rp " + gajiPokok);
+        System.out.println("Tunjangan     : Rp " + tunjangan);
+        System.out.println("Pajak         : Rp " + pajak);
+        System.out.println("-------------------------------");
+        System.out.println("Gaji Bersih   : Rp " + gajiBersih);
+    }
+}
