@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class aisya {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+   
+        double nilai = input.nextDouble();
+
+        if (nilai >= 85 && nilai <= 100) {
+            System.out.println("Predikat kamu: A");
+        } else if (nilai >= 70) {
+            System.out.println("Predikat kamu: B");
+        } else if (nilai >= 55) {
+            System.out.println("Predikat kamu: C");
+        } else if (nilai >= 40) {
+            System.out.println("Predikat kamu: D");
+        } else if (nilai >= 0) {
+            System.out.println("Predikat kamu: E");
+        } else {
+            System.out.println("Nilai tidak valid!");
+        }
+
+     
+    }
+}
