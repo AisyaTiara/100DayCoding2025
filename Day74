@@ -1,0 +1,38 @@
+package pkg100haricoding;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int pilih;
+        do {
+            System.out.println("1 = tambah ");
+            System.out.println("2 = kurang ");
+            System.out.println("3 = keluar ");
+            System.out.print("pilih menu = ");
+
+            pilih = sc.nextInt();
+            if (pilih >= 1 && pilih <= 2) {
+                System.out.print(" nilai pertama =");
+                int a = sc.nextInt();
+                System.out.print(" nilai kedua  =");
+                int b = sc.nextInt();
+
+                switch (pilih) {
+                    case 1:
+                        System.out.println("hasi " + (a + b));
+                        break;
+                    case 2:
+                        System.out.println("hasil " + (a - b));
+                        break;
+                }
+            } else if (pilih != 3) {
+                System.out.println("pilihan tidak ad ");
+            }
+        }while (pilih != 3) ;
+            System.out.println("selsai");
+        
+    }
+}
