@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        String nama = "Aisya Tiara";
+
+        System.out.println("Panjang String = " + nama.length());
+        System.out.println("Uppercase = " + nama.toUpperCase());
+        System.out.println("Lowercase = " + nama.toLowerCase());
+    }
+}
