@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {    
+        String teks = "   Belajar  Java itu mudah    ";
+        String t1 = teks.trim();  // "Belajar Java itu mudah"
+        String t2 = t1.substring(8); // "Java itu mudah"
+        String t3 = t2.replace("Java", "Coding");
+        
+        System.out.println("Asli     : [" + teks + "]");
+        System.out.println("Trim     : " + t1);
+        System.out.println("Substring: " + t2);
+        System.out.println("Replace  : " + t3);
+    }
+}
