@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        String teks = "   Belajar Java itu Mudah   ";
+        System.out.println("Teks asli: '" + teks + "'");
+        String t1 = teks.trim();
+        System.out.println("trim(): '" + t1 + "'");
+        System.out.println("length(): " + t1.length());
+        System.out.println("toUpperCase(): " + t1.toUpperCase());
+        System.out.println("toLowerCase(): " + t1.toLowerCase());
+        String t2 = t1.substring(8);  
+        System.out.println("substring(8): " + t2);
+        String t3 = t2.replace("Java", "Coding");
+        System.out.println("replace(): " + t3);
+        String a = "Belajar";
+        String b = "belajar";
+        System.out.println("equals(): " + a.equals(b));              
+        System.out.println("equalsIgnoreCase(): " + a.equalsIgnoreCase(b)); 
+        System.out.println("contains(\"Java\"): " + t1.contains("Java"));
+        String kosong = "";
+        System.out.println("isEmpty(): " + kosong.isEmpty());
+    }
+}
