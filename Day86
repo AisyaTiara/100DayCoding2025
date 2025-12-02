@@ -9,6 +9,6 @@ public class Main {
             }
         }
 
-        System.out.println("Nilai maksimal dalam array adalah: " + min);
+        System.out.println("Nilai minimall dalam array adalah: " + min);
     }
 }
