@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        String[] nama = {"Aisya", "Tiara", "Icha"};
+
+        for (String n : nama) {
+            System.out.println("Nama: " + n);
+        }
+    }
+}
