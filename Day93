@@ -1,0 +1,13 @@
+public class aisya {
+    public static void main(String[] args) {
+
+        double a = 4.1;
+        System.out.println("=== Math.ceil() ===");
+        System.out.println("Ceil dari 4.1 = " + Math.ceil(a));   
+        System.out.println("\n=== Math.floor() ===");
+        System.out.println("Floor dari 4.1 = " + Math.floor(a));
+        System.out.println("\n=== Math.round() ===");
+        System.out.println("Round dari 4.1 = " + Math.round(a));
+
+    }
+}
