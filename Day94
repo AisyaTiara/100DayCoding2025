@@ -1,0 +1,12 @@
+public class ContohVoid {
+
+    // Method void untuk mencetak
+    static void cetakPesan() {
+        System.out.println("Halo, ini adalah method void!");
+    }
+
+    public static void main(String[] args) {
+        // Memanggil method void
+        cetakPesan();
+    }
+}
